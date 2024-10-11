@@ -318,6 +318,8 @@ nav a {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .card,
@@ -446,6 +448,7 @@ nav a {
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 13px;
 }
 footer {
   display: flex;
@@ -458,9 +461,11 @@ footer p {
   color: #a9a9a9;
   font-size: small;
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   .main-content {
     grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .nav {
@@ -482,7 +487,7 @@ footer p {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .main-content {
     grid-template-columns: 1fr;
   }
